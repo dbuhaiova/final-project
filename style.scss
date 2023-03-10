@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1440px;
+  max-height: 2118px;
+  z-index: 1;
+
+  /* Gradient / Supersoft */
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+  border-radius: 0px 0px 12px 12px;
+  padding: 50px 60px 0px;
+
+  button,
+  span,
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: unset;
+    border: none;
+  }
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+}
+.header__navigation-links {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: right;
+  align-items: center;
+}
+.header__nav-buttons > button {
+  width: 19px;
+  height: 15px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0px 7px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1px;
+
+  /* Basic/White */
+  color: #ffffff;
+}
+
+.header__dot-separator {
+  margin: 0px 6px;
+}
+.header__nav__address {
+  width: 197px;
+  height: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: right;
+
+  /* Basic/White */
+  color: #ffffff;
+}
+
+.header__nav__telephone {
+  width: 104px;
+  height: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: right;
+
+  /* Basic/White */
+  color: #ffffff;
+}
+
+.header__navbar > a {
+  width: 69px;
+  height: 20px;
+  padding-left: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: right;
+
+  /* Basic/White */
+  color: #ffffff;
+}
+
+.header__navigation__facebook-logo {
+  overflow: visible;
+  width: 24px;
+  height: 24px;
+}
+
+.header__nav-buttons {
+  margin-bottom: 16px;
+}
+
+.header__logo-h > img{
+ 
+  z-index: 3;
+  width: 697px;
+height: 799px;
+}
