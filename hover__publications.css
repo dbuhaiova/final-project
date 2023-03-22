@@ -1,0 +1,98 @@
+.header__button__div {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.header__nav-buttons__ul-languages > li:hover {
+  display: flex;
+  width: 33px;
+  text-align: center;
+  height: 25px;
+  padding: 5px 7px;
+  border-radius: 8px;
+  background: #F5F5FA;
+}
+
+.header__nav-buttons__ul-languages > li:active,
+.header__nav-buttons__ul-languages > li:focus {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 7px;
+  gap: 6px;
+  /* Accent */
+  background: #f0145a;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+.header__nav-buttons__ul-languages > li:active a,
+.header__nav-buttons__ul-languages > li:focus a {
+  color: #FFFFFF;
+}
+
+.header__navbar-ul > li > a:hover {
+  border-bottom: 2px solid #0085ff;
+}
+
+.header__navbar-ul > li > a:active,
+.header__navbar-ul > li > a:focus {
+  color: #f0145a;
+  border-bottom: 2px solid #f0145a;
+}
+
+.header__nav__telephone:hover {
+  color: #0085ff;
+}
+
+.header__nav__facebook-logo:hover {
+  background-image: url(./Images/Header/Facebook-Footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 25px;
+}
+
+.header__nav__facebook-logo:hover {
+  background-image: url(./Images/Header/facebook-header-hover.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 25px;
+}
+
+.main__slider-element-2:hover {
+  background: #F5F5FA;
+}
+
+article > div > h3:hover {
+  color: #F0145A;
+}
+
+.main__button > button:hover {
+  background: #0085FF;
+}
+
+.footer__contacts__address__on-map > a:hover {
+  color: #F0145A;
+}
+
+.footer__contacts__links__paragraph > a:hover {
+  color: #f0145a;
+}
+
+.footer__contacts__links__paragraph > a {
+  color: #0085ff;
+}
+
+.facebook-logo__footer:hover {
+  display: inline-block;
+  background-image: url(./Images/Footer/Facebook\ hover.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 38px;
+  height: 38px;
+  background-color: unset;
+}/*# sourceMappingURL=hover__publications.css.map */

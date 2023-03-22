@@ -30,7 +30,7 @@
   height: 25px;
   padding: 5px 7px;
   border-radius: 8px;
-  background: #0085ff;
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .header__nav-buttons__ul-languages > li:active,
@@ -46,8 +46,14 @@
 }
 
 .header__navbar-ul > li > a:hover {
-  color: #F0145A;
-  border-bottom: 2px solid #F0145A;
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.header__navbar-ul > li > a:active,
+.header__navbar-ul > li > a:focus {
+  color: #f0145a;
+  border-bottom: 2px solid #f0145a;
 }
 
 .header__nav__telephone:hover {
@@ -59,15 +65,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 24px;
-  height: 24px;
+  height: 25px;
 }
 
 .header__nav__facebook-logo:hover {
-  background-image: url(./Images/Header/Facebook-Footer.svg);
+  background-image: url(./Images/Header/facebook-header-hover.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 24px;
-  height: 24px;
+  height: 25px;
 }
 
 .header__consistent__article__titles > h3:hover {
@@ -81,14 +87,53 @@
   background-image: url(./Images/Main/Ellipse.svg);
 }
 
+article > div > h3:hover {
+  color: #F0145A;
+}
+
+.header__section__articles__container > article > h3 > a:hover {
+  color: #F0145A;
+}
+
 .footer__contacts__links__paragraph > a {
   color: #0085ff;
+}
+
+.arrow__pointer {
+  display: inline-block;
+  background-image: url(./Images/Header/Vector\ 2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 9px;
+  margin-left: 2px;
 }
 
 .header__section__articles__link > a:hover {
   color: #F0145A;
 }
+.header__section__articles__link > a:hover .arrow__pointer {
+  background-image: url(./Images/Header/arrow\ hover.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 9px;
+}
 
 .footer__contacts__address__on-map > a:hover {
-  color: #0085ff;
+  color: #F0145A;
+}
+
+.footer__contacts__links__paragraph > a:hover {
+  color: #f0145a;
+}
+
+.facebook-logo__footer:hover {
+  display: inline-block;
+  background-image: url(./Images/Footer/Facebook\ hover.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 38px;
+  height: 38px;
+  background-color: unset;
 }/*# sourceMappingURL=hover.css.map */

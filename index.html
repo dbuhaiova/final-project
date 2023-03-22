@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./hover.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -67,9 +67,16 @@
                     class="header__dot-separator"
                   />
                 </li>
-                <span class="header__nav__facebook-logo"><a href="https://www.facebook.com" target="_blank"></a>
-                </span>
+                <span class="header__nav__facebook-logo"><a href="#"></a></span>
               </ul>
+            </div>
+
+            <div class="burger">
+              <a href="./burger.html">
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+              </a>
             </div>
 
             <div class="header__navbar">
@@ -77,7 +84,7 @@
                 <li><a href="#">about us</a></li>
                 <li><a href="#">services</a></li>
                 <li><a href="#">team</a></li>
-                <li><a href="#">publications</a></li>
+                <li><a href="./publications.html">publications</a></li>
                 <li><a href="#">contact</a></li>
               </ul>
             </div>
@@ -110,8 +117,8 @@
 
       <section class="header__section__articles">
         <p class="header__section__articles__link">
-          <a href="#">Services</a>
-          <img src="./Images/Header/Vector 2.svg" alt="pointer" />
+          <a href="#">Services<span class="arrow__pointer"></span></a>
+         
         </p>
         <h3>What can we do better than others?</h3>
         <div class="header__section__articles__container">
@@ -122,7 +129,7 @@
                 alt="header-article-icon"
             /></a>
 
-            <h3>IT and e-commerce</h3>
+            <h3><a href="#">IT and e-commerce</a></h3>
             <p>
               An endless stream of contracts, tax issues, labor relations,
               corporate papers - legal work distracts you from doing business.
@@ -135,7 +142,7 @@
                 src="./Images/Header/Homepage 8/Icon-1.svg"
                 alt="header-article-icon"
             /></a>
-            <h3>Comprehensive daily legal support</h3>
+            <h3><a href="#">Comprehensive daily legal support</a></h3>
             <p>
               In addition, over time, the work will become the same type and
               uninteresting for a full-time lawyer. And we know very well how
@@ -150,7 +157,7 @@
                 alt="header-article-icon"
             /></a>
 
-            <h3>Structuring corporate relationships</h3>
+            <h3><a href="#">Structuring corporate relationships</a></h3>
             <p>
               Instead of just providing legal services, we will hire a lawyer or
               a whole team that will fit into the daily life of your company.
@@ -163,7 +170,7 @@
                 alt="header-article-icon"
             /></a>
 
-            <h3>Building contractual relations</h3>
+            <h3><a href="#">Building contractual relations</a></h3>
             <p>
               Once a week, or week after month, you have your own lawyer by your
               side. Anyone in the company can catch it at the coffee maker and
@@ -178,7 +185,7 @@
                 alt="header-article-icon"
             /></a>
 
-            <h3>Protection of business, intellectual property</h3>
+            <h3><a href="#">Protection of business, intellectual property</a></h3>
             <p>
               And all the other time he will work on new diverse projects, so he
               will definitely not stop in professional development. One way or
@@ -193,7 +200,7 @@
                 alt="header-article-icon"
             /></a>
 
-            <h3>Judicial representation</h3>
+            <h3><a href="#">Judicial representation</a></h3>
             <p>
               Is it a small, medium-sized company or a market leader? Local
               business or multinational company? Do you have your own legal
@@ -203,22 +210,24 @@
         </div>
       </section>
     </header>
-
-    <main>
-      <div class="main__shadow">
+<div class="main__shadow">
         <div class="main__shadow1"></div>
         <div class="main__shadow2"></div>
-        <!-- <img src="./Images/Header/Shadow.svg" alt="header-shadow" /> -->
       </div>
+    <main>
+      
       <article class="main__article">
-        <img src="./Images/Main/Team-1.jpg" alt="man" class="main__article__img-man" />
+        <img
+          src="./Images/Main/Team-1.jpg"
+          alt="man"
+          class="main__article__img-man"
+        />
         <div class="main__article__text">
           <div class="main__article__text">
             <p
               class="main__article__text__first-paragraph header__section__articles__link"
             >
-              <a href="#">команда</a>
-              <img src="./Images/Header/Vector 2.svg" alt="arrow" />
+            <a href="#">команда<span class="arrow__pointer"></span></a>
             </p>
             <p class="main__article__text__second-paragraph">
               Ми звикли брати на себе відповідальність та завжди гарантуємо
@@ -242,6 +251,18 @@
       <article class="main__article__clients">
         <p>They already trust us</p>
         <div class="main__article__clients__images">
+          <!-- <div class="main__article__clients__images-hillel"></div>
+          <div class="main__article__clients__images-wannabiz"></div>
+          <div class="main__article__clients__images-tapgerine"></div>
+          <div class="main__article__clients__images-3dlook"></div>
+          <div class="main__article__clients__images-orangear"></div>
+          <div class="main__article__clients__images-adtelligent"></div>
+          <div class="main__article__clients__images-clicky"></div>
+          <div class="main__article__clients__images-ecolasting"></div>
+          <div class="main__article__clients__images-infatek"></div>
+          <div class="main__article__clients__images-citypark"></div>
+          <div class="main__article__clients__images-artprint"></div>
+          <div class="main__article__clients__images-ultimatecard"></div> -->
           <img src="./Images/Main/Clients/Item.svg" alt="hillel" />
           <img src="./Images/Main/Clients/Item-1.svg" alt="wannabiz" />
           <img src="./Images/Main/Clients/Item-2.svg" alt="tapgerine" />
@@ -257,61 +278,61 @@
         </div>
       </article>
       <main></main>
-      
     </main>
-<section class="main__section__publications">
-        <p class="header__section__articles__link">
-          <a href="#">Publications</a>
-          <img src="./Images/Header/Vector 2.svg" alt="pointer" />
-        </p>
-        <h3>We have something to tell</h3>
+    <section class="main__section__publications">
+      <p class="header__section__articles__link">
+        <a href="./publications.html">Publications<span class="arrow__pointer"></span></a>
+      </p>
+      <h3>We have something to tell</h3>
 
-        <div class="main__section__publications__cards">
-          <article>
-            <img src="./Images/Main/Cover.svg" alt="tablets" />
-            <div>
-              <h3>Equity associate</h3>
-              <p class="main__section__article__paragraph1">April 22</p>
-              <span></span>
-              <p class="main__section__article__paragraph">
-                I'm a jun on projects. I am a co-owner of a law firm. How it
-                happened. Before entering my parents told me that if I…
-              </p>
-            </div>
-          </article>
+      <div class="main__section__publications__cards">
+        <article>
+          <img src="./Images/Main/Cover.svg" alt="tablets" />
+          <div>
+            <h3><a href="#">Equity associate</a></h3>
+            <p class="main__section__article__paragraph1">April 22</p>
+            <span></span>
+            <p class="main__section__article__paragraph">
+              I'm a jun on projects. I am a co-owner of a law firm. How it
+              happened. Before entering my parents told me that if I…
+            </p>
+          </div>
+        </article>
 
-          <article>
-            <img src="./Images/Main/Cover-1.svg" alt="gdpr" />
-            <div>
-              <h3>
-                Penalty for the Good Corporation: what will happen to Google and
-                others for violating the GDPR
-              </h3>
-              <p class="main__section__article__paragraph1">September 29</p>
-              <span></span>
-              <p class="main__section__article__paragraph">
-                And why the recovery of 50 million euros could be a fateful
-                precedent According to Mind.ua January 21 National Commission
-                for Data Protection.
-              </p>
-            </div>
-          </article>
+        <article>
+          <img src="./Images/Main/Cover-1.svg" alt="gdpr" />
+          <div>
+            <h3>
+              <a href="#"
+                >Penalty for the Good Corporation: what will happen to Google
+                and others for violating the GDPR</a
+              >
+            </h3>
+            <p class="main__section__article__paragraph1">September 29</p>
+            <span></span>
+            <p class="main__section__article__paragraph">
+              And why the recovery of 50 million euros could be a fateful
+              precedent According to Mind.ua January 21 National Commission for
+              Data Protection.
+            </p>
+          </div>
+        </article>
 
-          <article>
-            <img src="./Images/Main/Cover-2.svg" alt="people-working" />
-            <div>
-              <h3>Millennial Testament</h3>
-              <p class="main__section__article__paragraph1">August 19</p>
-              <span></span>
-              <p class="main__section__article__paragraph">
-                What and how modern vloggers, opinion leaders and
-                crypto-millionaires will inherit A typical legacy of the
-                Ukrainian generation X looks like this: an apartment in…
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
+        <article class="card__span">
+          <img src="./Images/Main/Cover-2.svg" alt="people-working" />
+          <div>
+            <h3><a href="#">Millennial Testament</a></h3>
+            <p class="main__section__article__paragraph1">August 19</p>
+            <span></span>
+            <p class="main__section__article__paragraph">
+              What and how modern vloggers, opinion leaders and
+              crypto-millionaires will inherit A typical legacy of the Ukrainian
+              generation X looks like this: an apartment in…
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
     <footer>
       <article>
         <div class="footer__div"></div>
@@ -325,11 +346,7 @@
               </p>
             </div>
             <div class="footer__contacts__links">
-              <a href="https://www.facebook.com" target="_blank"
-                ><img
-                  src="./Images/Footer/Assets/Vector.svg"
-                  alt="facebook-footer"
-              /></a>
+              <a href="https://www.facebook.com" target="_blank"><span class="facebook-logo__footer"></span></a>
               <img src="./Images/Footer/Dot separator.svg" alt="dot" />
               <p>0800 211 927</p>
               <img src="./Images/Footer/Dot separator.svg" alt="dot" />
