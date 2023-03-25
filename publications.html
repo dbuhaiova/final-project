@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
 
-    <title>Document</title>
+    <title>Publications</title>
 </head>
 <body>
     <header>
@@ -28,7 +28,7 @@
               /></a>
             </div>
   
-            <div class="header__navigation-links">
+            <div class="header__navigation-links" id="header__navigation-links">
               <div class="header__nav-buttons">
                 <ul class="header__nav-buttons__ul-languages">
                   <li>
@@ -37,7 +37,7 @@
                   <li>
                     <button><a href="#">РУ</a></button>
                   </li>
-                  <li>
+                  <li id="en_selected">
                     <button><a href="#">EN</a></button>
                   </li>
                 </ul>
@@ -82,16 +82,124 @@
   
               <div class="header__navbar">
                 <ul class="header__navbar-ul">
-                  <li><a href="#">about us</a></li>
+                  <li><a href="./index.html">about us</a></li>
                   <li><a href="#">services</a></li>
                   <li><a href="#">team</a></li>
-                  <li><a href="#">publications</a></li>
+                  <li><a href="./publications.html" id="selected">publications</a></li>
                   <li><a href="#">contact</a></li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
+    <header id="second__header">
+      <div class="letter">
+        <nav class="header__navigation" id="header__padding_two">
+          <div class="header__navigation-links">
+            <div class="header__nav-buttons" id="header__nav-buttons">
+              <ul class="header__nav-buttons__ul-languages">
+                <li>
+                  <button><a href="#">УК</a></button>
+                </li>
+                <li>
+                  <button><a href="#">РУ</a></button>
+                </li>
+                <li id="en_selected">
+                  <button><a href="#">EN</a></button>
+                </li>
+              </ul>
+
+              <ul class="header__nav-buttons__ul-dots">
+                <li>
+                  <img
+                    src="./Images/Header/Dot separator.svg"
+                    alt="header__dot-separator"
+                    class="header__dot-separator"
+                  />
+                </li>
+                <span class="header__nav__address" id="header__nav__address"
+                  >Kyiv, Mechnikova str, 14/1</span
+                >
+                <li>
+                  <img
+                    src="./Images/Header/Dot separator.svg"
+                    alt="header__dot-separator"
+                    class="header__dot-separator"
+                  />
+                </li>
+                <span class="header__nav__telephone">0800 211 927</span>
+                <li>
+                  <img
+                    src="./Images/Header/Dot separator.svg"
+                    alt="header__dot-separator"
+                    class="header__dot-separator"
+                  />
+                </li>
+                <span class="header__nav__facebook-logo"><a href="#"></a></span>
+              </ul>
+            </div>
+
+            <div class="header__logo" id="second-header__logo__publications">
+              <a href="#"
+                ><img
+                  src="./Images/Publications/Header/Logo.svg"
+                  alt="header-logo-hlegal"
+                  class="header__logo-hlegal"
+              /></a>
+            </div>
+
+            <div class="header__navbar">
+              <ul class="header__navbar-ul" id="header__navbar-ul">
+                <li><a href="./index.html">about us</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">team</a></li>
+                <li><a href="./publications.html" id="selected">publications</a></li>
+                <li><a href="#">contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+      </div>
+    </header>
+    <header id="third__header">
+      <nav class="header__navigation" id="third__header__navigation">
+          <div class="header__navigation-links third__header__navigation-links" id="third__header__navigation-links">
+              <div class="header__nav-buttons" id="third__header__nav-buttons">
+                  <ul class="header__nav-buttons__ul-languages">
+                   <li>
+                      <button><a href="#">УК</a></button>
+                   </li>
+                  <li>
+                       <button><a href="#">РУ</a></button>
+                   </li>
+                  <li id="en_selected">
+                      <button><a href="#">EN</a></button>
+                  </li>
+                  </ul>
+          
+            <div class="header__nav__telephone">0800 211 927</div>
+          </div>
+      </nav>
+      <div class="burger__div">
+          <div class="header__logo" id="third__header__logo">
+          <a href="#"
+            ><img
+              src="./Images/Publications/Header/Logo копія.svg"
+              alt="header-logo-hlegal"
+              class="header__logo-hlegal"
+          /></a>
+        </div>
+        <div class="burger" id="third__header__burger">
+          <a href="./burger.html">
+            <span id="span1" class="third__header__burger__span1"></span>
+            <span id="span2" class="third__header__burger__span2"></span>
+            <span id="span3" class="third__header__burger__span3"></span>
+          </a>
+        </div>
+      </div>
+  </div>
+</header>
     <main>
       <section class="main__section__publications">
         <div class="main__slider__div">
@@ -215,6 +323,49 @@
 
           <div class="footer__contacts__legal">
             <p>© 2021 HLEGAL Law company, LLC</p>
+          </div>
+        </div>
+      </article>
+    </footer>
+
+    <footer id="footer__mobile">
+      <article>
+        <div class="footer__div"></div>
+        <div class="footer__contacts">
+          <div
+            class="footer__contacts__right"
+            id="footer__contacts__right-mobile"
+          >
+            <div
+              class="footer__contacts__address"
+              id="footer__contacts__address-mobile"
+            >
+              <p>Kyiv, Mechnikova str, 14/1</p>
+
+              <p class="footer__contacts__address__on-map">
+                <a href="">On map</a>
+              </p>
+            </div>
+            <div
+              class="footer__contacts__links"
+              id="footer__contacts__links-mobile"
+            >
+              <a href="https://www.facebook.com" target="_blank"
+                ><span class="facebook-logo__footer"></span
+              ></a>
+
+              <p>0800 211 927</p>
+
+              <p class="footer__contacts__links__paragraph">
+                <a href="mailto: abc@example.com">contact@forstudy.space </a>
+              </p>
+            </div>
+            <div
+              class="footer__contacts__legal"
+              id="footer__contacts__legal-mobile"
+            >
+              <p>© 2021 HLEGAL Law company, LLC</p>
+            </div>
           </div>
         </div>
       </article>

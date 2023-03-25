@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./hover.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,8 +17,9 @@
     <title>Hlegal</title>
   </head>
   <body>
-    <header>
-      <div class="letter">
+
+    <header class="first__header">
+      <div class="letter" >
         <nav class="header__navigation">
           <div class="header__logo">
             <a href="#"
@@ -36,7 +39,7 @@
                 <li>
                   <button><a href="#">РУ</a></button>
                 </li>
-                <li>
+                <li id="en_selected">
                   <button><a href="#">EN</a></button>
                 </li>
               </ul>
@@ -71,17 +74,9 @@
               </ul>
             </div>
 
-            <div class="burger">
-              <a href="./burger.html">
-                <span id="span1"></span>
-                <span id="span2"></span>
-                <span id="span3"></span>
-              </a>
-            </div>
-
             <div class="header__navbar">
               <ul class="header__navbar-ul">
-                <li><a href="#">about us</a></li>
+                <li><a href="#" id="selected">about us</a></li>
                 <li><a href="#">services</a></li>
                 <li><a href="#">team</a></li>
                 <li><a href="./publications.html">publications</a></li>
@@ -90,13 +85,14 @@
             </div>
           </div>
         </nav>
+
         <h3 class="header__text-over-button">you legal solutions provider</h3>
         <div class="header__button__div">
           <span class="header__button"><a href="#"></a></span>
         </div>
       </div>
 
-      <article class="header__consistent__article">
+      <article class="header__consistent__article" id="header__padding">
         <div class="header__consistent__article__titles">
           <h3 id="first_h3">Consistent</h3>
           <h3>Customer oriented</h3>
@@ -115,10 +111,9 @@
         </div>
       </article>
 
-      <section class="header__section__articles">
+      <section class="header__section__articles" id="header__padding">
         <p class="header__section__articles__link">
           <a href="#">Services<span class="arrow__pointer"></span></a>
-         
         </p>
         <h3>What can we do better than others?</h3>
         <div class="header__section__articles__container">
@@ -185,7 +180,9 @@
                 alt="header-article-icon"
             /></a>
 
-            <h3><a href="#">Protection of business, intellectual property</a></h3>
+            <h3>
+              <a href="#">Protection of business, intellectual property</a>
+            </h3>
             <p>
               And all the other time he will work on new diverse projects, so he
               will definitely not stop in professional development. One way or
@@ -210,24 +207,373 @@
         </div>
       </section>
     </header>
-<div class="main__shadow">
-        <div class="main__shadow1"></div>
-        <div class="main__shadow2"></div>
+    <header id="second__header">
+      <div class="letter">
+        <nav class="header__navigation" id="header__padding_two">
+          <div class="header__navigation-links">
+            <div class="header__nav-buttons" id="header__nav-buttons">
+              <ul class="header__nav-buttons__ul-languages">
+                <li>
+                  <button><a href="#">УК</a></button>
+                </li>
+                <li>
+                  <button><a href="#">РУ</a></button>
+                </li>
+                <li id="en_selected">
+                  <button><a href="#">EN</a></button>
+                </li>
+              </ul>
+
+              <ul class="header__nav-buttons__ul-dots">
+                <li>
+                  <img
+                    src="./Images/Header/Dot separator.svg"
+                    alt="header__dot-separator"
+                    class="header__dot-separator"
+                  />
+                </li>
+                <span class="header__nav__address" id="header__nav__address"
+                  >Kyiv, Mechnikova str, 14/1</span
+                >
+                <li>
+                  <img
+                    src="./Images/Header/Dot separator.svg"
+                    alt="header__dot-separator"
+                    class="header__dot-separator"
+                  />
+                </li>
+                <span class="header__nav__telephone">0800 211 927</span>
+                <li>
+                  <img
+                    src="./Images/Header/Dot separator.svg"
+                    alt="header__dot-separator"
+                    class="header__dot-separator"
+                  />
+                </li>
+                <span class="header__nav__facebook-logo"><a href="#"></a></span>
+              </ul>
+            </div>
+
+
+            <div class="header__logo">
+              <a href="#"
+                ><img
+                  src="./Images/Header/Logo.svg"
+                  alt="header-logo-hlegal"
+                  class="header__logo-hlegal"
+              /></a>
+            </div>
+
+            <div class="header__navbar">
+              <ul class="header__navbar-ul">
+                <li><a href="#" id="selected">about us</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">team</a></li>
+                <li><a href="./publications.html">publications</a></li>
+                <li><a href="#">contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <h3 class="header__text-over-button">you legal solutions provider</h3>
+        <div class="header__button__div">
+          <span class="header__button"><a href="#"></a></span>
+        </div>
       </div>
+
+      <article class="header__consistent__article" id="header__padding">
+        <div class="header__consistent__article__titles">
+          <h3 id="first_h3">Consistent</h3>
+          <h3>Customer oriented</h3>
+          <h3>Innovative</h3>
+          <h3>Business oriented</h3>
+        </div>
+        <span class="header__consistent__article__divider"></span>
+        <div class="header__consistent__article__description">
+          <h3>We turn the idea of legal services</h3>
+          <p>
+            Consolidating many years of experience and practice, the company's
+            lawyers accompany complex projects and achieve a number of important
+            decisions for the industry. Many of them form the practice of
+            applying the law of the sea in Ukraine.
+          </p>
+        </div>
+      </article>
+
+      <section class="header__section__articles" id="header__padding">
+        <p class="header__section__articles__link">
+          <a href="#">Services<span class="arrow__pointer"></span></a>
+        </p>
+        <h3>What can we do better than others?</h3>
+        <div class="header__section__articles__container">
+          <article>
+            <a href="#"
+              ><img
+                src="./Images/Header/Homepage 8/Icon.svg"
+                alt="header-article-icon"
+            /></a>
+
+            <h3><a href="#">IT and e-commerce</a></h3>
+            <p>
+              An endless stream of contracts, tax issues, labor relations,
+              corporate papers - legal work distracts you from doing business.
+              But there is not much work to do to hire an in-house lawyer.
+            </p>
+          </article>
+          <article>
+            <a href="#"
+              ><img
+                src="./Images/Header/Homepage 8/Icon-1.svg"
+                alt="header-article-icon"
+            /></a>
+            <h3><a href="#">Comprehensive daily legal support</a></h3>
+            <p>
+              In addition, over time, the work will become the same type and
+              uninteresting for a full-time lawyer. And we know very well how
+              difficult it is to find a good candidate with experience in the
+              field of information technology in Ukraine.
+            </p>
+          </article>
+          <article>
+            <a href="#"
+              ><img
+                src="./Images/Header/Homepage 8/Icon-2.svg"
+                alt="header-article-icon"
+            /></a>
+
+            <h3><a href="#">Structuring corporate relationships</a></h3>
+            <p>
+              Instead of just providing legal services, we will hire a lawyer or
+              a whole team that will fit into the daily life of your company.
+            </p>
+          </article>
+          <article>
+            <a href="#"
+              ><img
+                src="./Images/Header/Homepage 8/Icon-3.svg"
+                alt="header-article-icon"
+            /></a>
+
+            <h3><a href="#">Building contractual relations</a></h3>
+            <p>
+              Once a week, or week after month, you have your own lawyer by your
+              side. Anyone in the company can catch it at the coffee maker and
+              just talk about current affairs instead of waiting for update
+              status.
+            </p>
+          </article>
+          <article>
+            <a href="#"
+              ><img
+                src="./Images/Header/Homepage 8/Icon-4.svg"
+                alt="header-article-icon"
+            /></a>
+
+            <h3>
+              <a href="#">Protection of business, intellectual property</a>
+            </h3>
+            <p>
+              And all the other time he will work on new diverse projects, so he
+              will definitely not stop in professional development. One way or
+              another, all Axon Partners will work for you instead of a
+              corporate lawyer.
+            </p>
+          </article>
+          <article>
+            <a href="#"
+              ><img
+                src="./Images/Header/Homepage 8/Icon-5.svg"
+                alt="header-article-icon"
+            /></a>
+
+            <h3><a href="#">Judicial representation</a></h3>
+            <p>
+              Is it a small, medium-sized company or a market leader? Local
+              business or multinational company? Do you have your own legal
+              department or not?
+            </p>
+          </article>
+        </div>
+      </section>
+    </header>
+    <header id="third__header">
+      <div class="letter">
+          <nav class="header__navigation" id="third__header__navigation">
+              <div class="header__navigation-links third__header__navigation-links">
+                  <div class="header__nav-buttons" id="third__header__nav-buttons">
+                      <ul class="header__nav-buttons__ul-languages">
+                       <li>
+                          <button><a href="#">УК</a></button>
+                       </li>
+                      <li>
+                           <button><a href="#">РУ</a></button>
+                       </li>
+                      <li id="en_selected">
+                          <button><a href="#">EN</a></button>
+                      </li>
+                      </ul>
+              
+                <div class="header__nav__telephone">0800 211 927</div>
+              </div>
+          </nav>
+          <div class="burger__div">
+              <div class="header__logo" id="third__header__logo">
+              <a href="#"
+                ><img
+                  src="./Images/Header/Header-3/Logoserviceslogo.svg"
+                  alt="header-logo-hlegal"
+                  class="header__logo-hlegal"
+              /></a>
+            </div>
+            <div class="burger" id="third__header__burger">
+              <a href="./burger.html">
+                <span id="span1" class="third__header__burger__span1"></span>
+                <span id="span2" class="third__header__burger__span2"></span>
+                <span id="span3" class="third__header__burger__span3"></span>
+              </a>
+            </div>
+          </div>
+          
+        <h3 class="header__text-over-button">you legal solutions provider</h3>
+        <div class="header__button__div">
+          <span class="header__button"><a href="#"></a></span>
+        </div>
+      </div>
+
+      <article class="header__consistent__article" id="header__padding">
+        <div class="header__consistent__article__titles">
+          <h3 id="first_h3">Consistent</h3>
+          <h3>Customer oriented</h3>
+          <h3>Innovative</h3>
+          <h3>Business oriented</h3>
+        </div>
+        <span class="header__consistent__article__divider"></span>
+        <div class="header__consistent__article__description">
+          <h3>We turn the idea of legal services</h3>
+          <p>
+            Consolidating many years of experience and practice, the company's
+            lawyers accompany complex projects and achieve a number of important
+            decisions for the industry. Many of them form the practice of
+            applying the law of the sea in Ukraine.
+          </p>
+        </div>
+      </article>
+
+      <section class="header__section__articles" id="header__padding">
+        <p class="header__section__articles__link">
+          <a href="#">Services<span class="arrow__pointer"></span></a>
+        </p>
+        <h3>What can we do better than others?</h3>
+        <div class="header__section__articles__container">
+          <article>
+            <a href="#"
+              ><img
+                src="./Images/Header/Homepage 8/Icon.svg"
+                alt="header-article-icon"
+            /></a>
+
+            <h3><a href="#">IT and e-commerce</a></h3>
+            <p>
+              An endless stream of contracts, tax issues, labor relations,
+              corporate papers - legal work distracts you from doing business.
+              But there is not much work to do to hire an in-house lawyer.
+            </p>
+          </article>
+          <article>
+            <a href="#"
+              ><img
+                src="./Images/Header/Homepage 8/Icon-1.svg"
+                alt="header-article-icon"
+            /></a>
+            <h3><a href="#">Comprehensive daily legal support</a></h3>
+            <p>
+              In addition, over time, the work will become the same type and
+              uninteresting for a full-time lawyer. And we know very well how
+              difficult it is to find a good candidate with experience in the
+              field of information technology in Ukraine.
+            </p>
+          </article>
+          <article>
+            <a href="#"
+              ><img
+                src="./Images/Header/Homepage 8/Icon-2.svg"
+                alt="header-article-icon"
+            /></a>
+
+            <h3><a href="#">Structuring corporate relationships</a></h3>
+            <p>
+              Instead of just providing legal services, we will hire a lawyer or
+              a whole team that will fit into the daily life of your company.
+            </p>
+          </article>
+          <article>
+            <a href="#"
+              ><img
+                src="./Images/Header/Homepage 8/Icon-3.svg"
+                alt="header-article-icon"
+            /></a>
+
+            <h3><a href="#">Building contractual relations</a></h3>
+            <p>
+              Once a week, or week after month, you have your own lawyer by your
+              side. Anyone in the company can catch it at the coffee maker and
+              just talk about current affairs instead of waiting for update
+              status.
+            </p>
+          </article>
+          <article>
+            <a href="#"
+              ><img
+                src="./Images/Header/Homepage 8/Icon-4.svg"
+                alt="header-article-icon"
+            /></a>
+
+            <h3>
+              <a href="#">Protection of business, intellectual property</a>
+            </h3>
+            <p>
+              And all the other time he will work on new diverse projects, so he
+              will definitely not stop in professional development. One way or
+              another, all Axon Partners will work for you instead of a
+              corporate lawyer.
+            </p>
+          </article>
+          <article>
+            <a href="#"
+              ><img
+                src="./Images/Header/Homepage 8/Icon-5.svg"
+                alt="header-article-icon"
+            /></a>
+
+            <h3><a href="#">Judicial representation</a></h3>
+            <p>
+              Is it a small, medium-sized company or a market leader? Local
+              business or multinational company? Do you have your own legal
+              department or not?
+            </p>
+          </article>
+        </div>
+      </section>
+    </header>
+    <div class="main__shadow">
+      <div class="main__shadow1"></div>
+      <div class="main__shadow2"></div>
+    </div>
     <main>
-      
+
+
       <article class="main__article">
-        <img
-          src="./Images/Main/Team-1.jpg"
-          alt="man"
-          class="main__article__img-man"
-        />
+          <img
+            src="./Images/Main/Team-1.jpg"
+            alt="man"
+            class="main__article__img-man"
+          />
         <div class="main__article__text">
           <div class="main__article__text">
             <p
               class="main__article__text__first-paragraph header__section__articles__link"
             >
-            <a href="#">команда<span class="arrow__pointer"></span></a>
+              <a href="#">команда<span class="arrow__pointer"></span></a>
             </p>
             <p class="main__article__text__second-paragraph">
               Ми звикли брати на себе відповідальність та завжди гарантуємо
@@ -248,40 +594,34 @@
         <img src="./Images/Main/Ellipse-1.svg" alt="dot2" />
         <img src="./Images/Main/Ellipse-2.svg" alt="dot3" />
       </div>
-      <article class="main__article__clients">
+
+
+      <section class="main__article__clients__images__wrapper">
+        <article class="main__article__clients">
         <p>They already trust us</p>
-        <div class="main__article__clients__images">
-          <!-- <div class="main__article__clients__images-hillel"></div>
-          <div class="main__article__clients__images-wannabiz"></div>
-          <div class="main__article__clients__images-tapgerine"></div>
-          <div class="main__article__clients__images-3dlook"></div>
-          <div class="main__article__clients__images-orangear"></div>
-          <div class="main__article__clients__images-adtelligent"></div>
-          <div class="main__article__clients__images-clicky"></div>
-          <div class="main__article__clients__images-ecolasting"></div>
-          <div class="main__article__clients__images-infatek"></div>
-          <div class="main__article__clients__images-citypark"></div>
-          <div class="main__article__clients__images-artprint"></div>
-          <div class="main__article__clients__images-ultimatecard"></div> -->
-          <img src="./Images/Main/Clients/Item.svg" alt="hillel" />
-          <img src="./Images/Main/Clients/Item-1.svg" alt="wannabiz" />
-          <img src="./Images/Main/Clients/Item-2.svg" alt="tapgerine" />
-          <img src="./Images/Main/Clients/Item-3.svg" alt="3dlook" />
-          <img src="./Images/Main/Clients/Item-4.svg" alt="orangear" />
-          <img src="./Images/Main/Clients/Item-5.svg" alt="adtelligent" />
-          <img src="./Images/Main/Clients/Item-6.svg" alt="clicky" />
-          <img src="./Images/Main/Clients/Item-7.svg" alt="ecolasting" />
-          <img src="./Images/Main/Clients/Item-8.svg" alt="infatek" />
-          <img src="./Images/Main/Clients/Item-9.svg" alt="citypark" />
-          <img src="./Images/Main/Clients/Item-10.svg" alt="artprint" />
-          <img src="./Images/Main/Clients/Item-11.svg" alt="ultimatecard" />
-        </div>
+          <div class="main__article__clients__images">
+            <div class="hillel"><img src="./Images/Main/Clients/безіменна папка/Hillel-Logo-OneLine-White-Uk.svg" alt="hillel" /></div>
+            <div class="wannabiz"><img src="./Images/Main/Clients/безіменна папка/image.svg" alt="wannabiz" /></div>
+            <div class="tapgerine"><img src="./Images/Main/Clients/безіменна папка/logo 1tapjerine.svg" alt="tapgerine"/></div>
+            <div class="dlook"><img src="./Images/Main/Clients/безіменна папка/retina_23dlook.svg" alt="3dlook"/></div>
+            <div class="orangear"><img src="./Images/Main/Clients/безіменна папка/Frame 6orangear.svg" alt="orangear"/></div>
+            <div class="adtelligent"><img src="./Images/Main/Clients/безіменна папка/Frame 7.svg" alt="adtelligent"/></div>
+            <div class="clicky"><img src="./Images/Main/Clients/безіменна папка/logo 2.svg" alt="clicky"/></div>
+            <div class="ecolasting"><img src="./Images/Main/Clients/безіменна папка/ecoleaseecoleasing.svg" alt="ecolasting"/></div>
+            <div class="infatek"><img src="./Images/Main/Clients/безіменна папка/imageinfra.svg" alt="infatek"/></div>
+            <div class="citypark"><img src="./Images/Main/Clients/безіменна папка/icon-logo 1citypark.svg" alt="citypark"/></div>
+            <div class="artprint"><img src="./Images/Main/Clients/безіменна папка/logo.svg" alt="artprint"/></div>
+            <div class="ultimatecard"><img src="./Images/Main/Clients/безіменна папка/logoMultimate.svg" alt="ultimatecard" /></div>
+          </div>
+        </section>
       </article>
-      <main></main>
+      
     </main>
     <section class="main__section__publications">
       <p class="header__section__articles__link">
-        <a href="./publications.html">Publications<span class="arrow__pointer"></span></a>
+        <a href="./publications.html"
+          >Publications<span class="arrow__pointer"></span
+        ></a>
       </p>
       <h3>We have something to tell</h3>
 
@@ -346,7 +686,9 @@
               </p>
             </div>
             <div class="footer__contacts__links">
-              <a href="https://www.facebook.com" target="_blank"><span class="facebook-logo__footer"></span></a>
+              <a href="https://www.facebook.com" target="_blank"
+                ><span class="facebook-logo__footer"></span
+              ></a>
               <img src="./Images/Footer/Dot separator.svg" alt="dot" />
               <p>0800 211 927</p>
               <img src="./Images/Footer/Dot separator.svg" alt="dot" />
@@ -358,6 +700,50 @@
 
           <div class="footer__contacts__legal">
             <p>© 2021 HLEGAL Law company, LLC</p>
+          </div>
+        </div>
+      </article>
+    </footer>
+
+
+    <footer id="footer__mobile">
+      <article>
+        <div class="footer__div"></div>
+        <div class="footer__contacts">
+          <div
+            class="footer__contacts__right"
+            id="footer__contacts__right-mobile"
+          >
+            <div
+              class="footer__contacts__address"
+              id="footer__contacts__address-mobile"
+            >
+              <p>Kyiv, Mechnikova str, 14/1</p>
+
+              <p class="footer__contacts__address__on-map">
+                <a href="">On map</a>
+              </p>
+            </div>
+            <div
+              class="footer__contacts__links"
+              id="footer__contacts__links-mobile"
+            >
+              <a href="https://www.facebook.com" target="_blank"
+                ><span class="facebook-logo__footer"></span
+              ></a>
+
+              <p>0800 211 927</p>
+
+              <p class="footer__contacts__links__paragraph">
+                <a href="mailto: abc@example.com">contact@forstudy.space </a>
+              </p>
+            </div>
+            <div
+              class="footer__contacts__legal"
+              id="footer__contacts__legal-mobile"
+            >
+              <p>© 2021 HLEGAL Law company, LLC</p>
+            </div>
           </div>
         </div>
       </article>

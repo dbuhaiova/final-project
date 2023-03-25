@@ -39,9 +39,9 @@
 }
 
 .header__navbar-ul>li>a:hover{
-    
     border-bottom: 2px solid #0085ff;
 }
+
 .header__navbar-ul>li>a:active,
 .header__navbar-ul>li>a:focus{
     color: #f0145a;
@@ -49,9 +49,13 @@
 }
 
 .header__nav__telephone:hover{
-    color: #0085ff;
+    color: #f0145a;
 }
-
+#third__header__burger:hover{
+   padding: 7px;
+  background: #E6E6F0;
+  border-radius: 8px;
+  }
 .header__nav__facebook-logo:hover{
     background-image: url(./Images/Header/Facebook-Footer.svg);
     background-repeat: no-repeat;
